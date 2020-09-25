@@ -2,5 +2,22 @@
     height: 200px;
     border: 1px solid black;
     float: left;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
+.flipimage {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#gameControl {
+    /* display: none; */
+}
+
+#message {
+    font-size: 1.5em;
+    color: red;
+    background: black;
+}
